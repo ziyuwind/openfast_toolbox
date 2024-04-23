@@ -15,11 +15,11 @@ with open(os.path.join(ROOT, "VERSION")) as version_file:
 
 
 setup(
-    name="openfast_toolbox",
-    description="openfast_toolbox",
+    name="pyFAST",
+    description="pyFAST",
     long_description=LONG_DESCRIPTION,
     version=VERSION,
-    url="https://github.com/openfast/openfast_toolbox/",
+    url="https://github.com/openfast/pyFAST/",
     classifiers=[
         "Topic :: Utilities",
         "Topic :: Software Development :: Testing",
@@ -28,7 +28,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Topic :: Software Development :: Version Control :: Git",
     ],
-    packages=["openfast_toolbox"],
+    packages=["pyFAST"],
     python_requires=">=3.6",
     install_requires=[
         "matplotlib",
@@ -43,5 +43,5 @@ setup(
     ],
     test_suite="pytest",
     tests_require=["pytest"],
-    entry_points={"console_scripts": ["openfast_toolbox = openfast_toolbox.__main__:main"]},
+    entry_points={"console_scripts": ["pyFAST = pyFAST.__main__:main"]},
 )

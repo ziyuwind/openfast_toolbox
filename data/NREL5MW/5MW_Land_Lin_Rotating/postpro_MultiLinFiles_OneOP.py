@@ -2,14 +2,14 @@
 Script to postprocess linearization files from OpenFAST for one operating point.
 
 Adapted from:
-     https://github.com/OpenFAST/openfast_toolbox/blob/dev/openfast_toolbox/linearization/examples/ex2a_MultiLinFiles_OneOP.py
+     https://github.com/OpenFAST/pyFAST/blob/dev/pyFAST/linearization/examples/ex2a_MultiLinFiles_OneOP.py
 
 """
 import os
 import glob
 import numpy as np
-import openfast_toolbox
-import openfast_toolbox.linearization as lin
+import pyFAST
+import pyFAST.linearization as lin
 
 ## Script Parameters
 fstFile = './Main.fst' # Main .fst file, .lin files will be sought for with same basename

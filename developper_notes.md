@@ -31,7 +31,7 @@ twine upload dist/*     # upload to pypi
 ### Step 1: go to your repo
 Go to folder
 ```bash
-cd path/to/openfast_toolbox
+cd path/to/pyFAST
 ```
 
 ### Step 2: change version in setup.py and tag it

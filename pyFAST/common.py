@@ -1,0 +1,3 @@
+
+class pyFASTException(Exception):
+    pass

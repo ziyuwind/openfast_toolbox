@@ -1,5 +1,5 @@
 The outputs in this directory should match the ones given by the example script:
-     openfast_toolbox/linearization/runCampbell.
+     pyFAST/linearization/runCampbell.
 
 Using the 5MW Land turbine, at given operating points.
 
